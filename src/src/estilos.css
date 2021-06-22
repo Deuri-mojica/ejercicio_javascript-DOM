@@ -1,0 +1,112 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHJR0Lq-Mt74bRLsJdAzZBFUxS0W84hPYufw&usqp=CAU);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        image-rendering: optimizeSpeed;
+    }
+    
+    .contenedor-flex {
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    .form {
+        width: 377px;
+        height: 400px;
+        box-sizing: border-box;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 60px;
+        background-color: rgba(10, 10, 10, 0.657);
+        border-radius: 50px;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container input {
+        width: 300px;
+        height: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+        border: none;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #ffffffb7;
+        border-radius: 40px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .container textarea {
+        width: 250px;
+        height: 80px;
+        font-size: 16px;
+        text-align: center;
+        background-color: #ffffffb7;
+        color: rgb(255, 255, 255);
+    }
+    
+    .btn {
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+    }
+    
+    .btn button {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        margin-top: 15px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 800;
+        background-color: #ff730091;
+        color: rgba(255, 255, 255, 0.801);
+        cursor: pointer;
+        border: none;
+    }
+    
+    .contenedor {
+        width: 350px;
+        height: 350px;
+        margin: auto;
+        background-color: #7e5ddabe;
+        border-radius: 50%;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        color: #ffffff;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .contenedor span {
+        font-size: 25px;
+        font-weight: 800;
+        color: black;
+    }
+    
+    .contenedor span:hover {
+        color: #ffffff;
+        text-rendering: optimizeSpeed;
+    }
